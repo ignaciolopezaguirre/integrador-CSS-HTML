@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/59804d35c2.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="icon" href="./assets/large_movieholic_0.png" />
     <link rel="stylesheet" href="./assets/styles.css" />
     <meta charset="UTF-8" />
@@ -17,8 +22,8 @@
           <li><a href="#hero">nosotros</a></li>
           <li><a href="#Generos">Generos</a></li>
           <li><a href="#Peliculas">peliculas</a></li>
-          <li><a href="#Redes sociales">Contacto</a></li>
-          <li><a href="#">series</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+          <li><a href="#Series">series</a></li>
         </ul>
       </nav>
 
@@ -29,13 +34,12 @@
     </header>
 
     <main>
-      <section class="hero">
-        <div class="slogan">
-          <h1>El cine... ese invento del demonio.</h1>
-          <p>Lo mejor del cine y television,sólo con un click</p>
-        </div>
-        <div class="sobreNosotros">
-          <h2>Sobre Nosotros</h2>
+      <section id="hero">
+        <div class="hero-info">
+          <h1>Lo mejor del cine y television</h1>
+          <span>Solo con un click</span>
+
+          <h2>Sobre nosotros</h2>
           <p>
             Somos un grupo de amigos amante del cine, y decidimos empezar esta
             web para compartir series y peliculas para gente que tal vez no
@@ -116,56 +120,112 @@
         </div>
 
         <div class="listaPelis">
-          <div class="pelicula">
-            <img src="./assets/movies/Hellrasier.jpg" alt="Hellraiser" />
+          <div class="card-pelicula">
+            <div class="pelicula peli1">
+              <button>2022</button>
+            </div>
             <p>Hellraiser</p>
-            <div>
-              <button>2022</button>
-            </div>
           </div>
 
-          <div class="pelicula">
-            <img
-              src="./assets/movies/Significant Other.jpg"
-              alt="Significant Other"
-            />
+          <div class="card-pelicula">
+            <div class="pelicula peli2">
+              <button>2022</button>
+            </div>
             <p>Significant other</p>
-            <div>
-              <button>2022</button>
-            </div>
           </div>
 
-          <div class="pelicula">
-            <img
-              src="./assets/movies/La maldicion del hombre lobo.jpg"
-              alt="la maldicion del hombre lobo"
-            />
+          <div class="card-pelicula">
+            <div class="pelicula peli3">
+              <button>2022</button>
+            </div>
+            <p>Equipo redentor</p>
+          </div>
+
+          <div class="card-pelicula">
+            <div class="pelicula peli4">
+              <button>2022</button>
+            </div>
+            <p>Seminario del mal</p>
+          </div>
+
+          <div class="card-pelicula">
+            <div class="pelicula peli5">
+              <button>2022</button>
+            </div>
             <p>El hombre lobo</p>
-            <div>
-              <button>2022</button>
-            </div>
-          </div>
-
-          <div class="pelicula">
-            <img
-              src="./assets/movies/Equipo redentor.jpg"
-              alt="equipo redentor"
-            />
-            <p>El equipo redentor</p>
-            <div>
-              <button>2022</button>
-            </div>
-          </div>
-
-          <div class="pelicula">
-            <img src="./assets/movies/Los ancianos.jpg" alt="los ancianos" />
-            <p>Los ancianos</p>
-            <div>
-              <button>2022</button>
-            </div>
           </div>
         </div>
       </section>
+
+      <section id="Series">
+        <div class="top">
+          <h2>Series</h2>
+          <a href="#">ÚLTIMAS</a>
+          <a href="#">ESTRENOS</a>
+          <a href="#">RANKING</a>
+          <a href="#">MAS VISTAS</a>
+        </div>
+
+        <div class="listaSeries">
+          <div class="card-serie">
+            <div class="serie serie1">
+              <button>2022</button>
+            </div>
+            <p>Alaska Daily</p>
+          </div>
+
+          <div class="card-serie">
+            <div class="serie serie2">
+              <button>2022</button>
+            </div>
+            <p>Interview with the vampire</p>
+          </div>
+
+          <div class="card-serie">
+            <div class="serie serie3">
+              <button>2022</button>
+            </div>
+            <p>Let the right one in</p>
+          </div>
+
+          <div class="card-serie">
+            <div class="serie serie4">
+              <button>2022</button>
+            </div>
+            <p>The midnight club</p>
+          </div>
+
+          <div class="card-serie">
+            <div class="serie serie5">
+              <button>2022</button>
+            </div>
+            <p>Walker independence</p>
+          </div>
+        </div>
+      </section>
+
+      <footer id="Contacto">
+        <h2>Contacto</h2>
+        <div class="copyright">
+          <span>Movieholic</span>
+          <span>-2022-</span>
+          <span>todos los derechos reservados</span>
+        </div>
+
+        <div class="Redes-contacto">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://es-la.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
