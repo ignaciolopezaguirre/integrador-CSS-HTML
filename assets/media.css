@@ -104,12 +104,11 @@
     justify-content: space-between;
   }
 
-  #hero{
-    height: 100px;
-  }
+  
 
   .hero-info {
     padding-left: 0px;
+    width: 400px;
   }
 
   .masVisto h2 {
