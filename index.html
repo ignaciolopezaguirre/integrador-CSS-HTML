@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
     <script
       src="https://kit.fontawesome.com/59804d35c2.js"
       crossorigin="anonymous"
     ></script>
 
     <link rel="icon" href="./assets/large_movieholic_0.png" />
-    <link rel="stylesheet" href="./assets/styles.css" />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/media.css" />
     <title>Movieholic</title>
   </head>
 
   <body>
     <header>
       <img src="./assets/large_movieholic_0.png" alt="logo" class="logo" />
+      <label class="hamburguesa" for="menu"
+        ><i class="bi bi-justify-right"></i
+      ></label>
+      <input type="checkbox" name="check" id="menu" />
       <nav class="nav">
         <ul>
           <li><a href="#hero">nosotros</a></li>
@@ -25,12 +36,11 @@
           <li><a href="#Contacto">Contacto</a></li>
           <li><a href="#Series">series</a></li>
         </ul>
+        <div class="log">
+          <a href="./login.html">acceder</a>
+          <a href="./registro.html">Registrarse</a>
+        </div>
       </nav>
-
-      <div class="log">
-        <a href="./login.html">acceder</a>
-        <a href="./registro.html">Registrarse</a>
-      </div>
     </header>
 
     <main>
@@ -215,13 +225,19 @@
         <div class="Redes-contacto">
           <ul>
             <li>
-              <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.instagram.com"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
             </li>
             <li>
-              <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://twitter.com/"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
             </li>
             <li>
-              <a href="https://es-la.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://es-la.facebook.com"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
             </li>
           </ul>
         </div>
