@@ -58,6 +58,15 @@
     justify-content: center;
   }
 
+  #Generos h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .top {
     flex-direction: column;
   }
@@ -78,8 +87,6 @@
 @media (max-width: 530px) {
   .nav {
     height: 600px;
-    
-    
   }
   .nav ul {
     display: flex;
@@ -97,8 +104,16 @@
     justify-content: space-between;
   }
 
+  
+
   .hero-info {
     padding-left: 0px;
+    max-width: 0%;
+   
+  }
+
+  .hero-info p{
+    width: 400px;
   }
 
   .masVisto h2 {
@@ -115,11 +130,12 @@
     margin-left: auto;
   }
 
-  .copyright{
+  .copyright {
     display: flex;
     font-size: 14px;
     justify-content: center;
     align-items: center;
-    
   }
+
+  
 }
