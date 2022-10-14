@@ -96,19 +96,19 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 15px 20px;
   width: 100%;
   background-image: url(./hero.jpg);
   background-size: cover;
-  height:40%;
   color: white;
+  
+  
 }
 
 .hero-info {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 20px 15px;
+ 
 }
 
 .hero-info p {

@@ -91,7 +91,7 @@
 
 @media (max-width: 530px) {
   .nav {
-    height: 600px;
+    height: 30%;
   }
   .nav ul {
     display: flex;
@@ -111,11 +111,13 @@
 
   #hero{
     margin-top: 75px;
+
   }
 
-  .hero-info {
+ /* .hero-info {
     padding: 20px;
-  }
+  }*/
+
 
   .masVisto h2 {
     padding: 0px;
