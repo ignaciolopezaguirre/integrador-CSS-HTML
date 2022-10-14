@@ -104,16 +104,12 @@
     justify-content: space-between;
   }
 
-  
+  #hero{
+    height: 100px;
+  }
 
   .hero-info {
     padding-left: 0px;
-    max-width: 0%;
-   
-  }
-
-  .hero-info p{
-    width: 400px;
   }
 
   .masVisto h2 {
@@ -136,6 +132,4 @@
     justify-content: center;
     align-items: center;
   }
-
-  
 }
