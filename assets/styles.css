@@ -536,3 +536,7 @@ footer h2{
   margin-top: 30px;
   font-size: 25px;
 }
+
+.Redes-lista li{
+  list-style: none;
+}
