@@ -67,8 +67,8 @@
     margin-right: auto;
   }
 
-  .masVisto h2{
-    margin-left:auto ;
+  .masVisto h2 {
+    margin-left: auto;
     margin-right: auto;
   }
 
@@ -91,7 +91,8 @@
 
 @media (max-width: 530px) {
   .nav {
-    height: 30%;
+    height: 80%;
+    justify-content: space-around;
   }
   .nav ul {
     display: flex;
@@ -109,15 +110,13 @@
     justify-content: space-between;
   }
 
-  #hero{
+  #hero {
     margin-top: 75px;
-
   }
 
- /* .hero-info {
+  /* .hero-info {
     padding: 20px;
   }*/
-
 
   .masVisto h2 {
     padding: 0px;
@@ -139,6 +138,5 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    
   }
 }
